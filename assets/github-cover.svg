@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+  <title id="title">Lucas Marques — Software, Data &amp; Platforms</title>
+  <desc id="desc">Capa corporativa em azul-marinho escuro, verde-menta e azul-claro, com uma rede geométrica que representa engenharia e plataformas de dados.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06111D"/>
+      <stop offset="1" stop-color="#091827"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.3" cy="1.3" r="1.1" fill="#8EB6FF" opacity=".15"/>
+    </pattern>
+    <clipPath id="right"><rect x="750" y="0" width="450" height="350"/></clipPath>
+  </defs>
+  <rect width="1200" height="350" fill="url(#bg)"/>
+  <rect x="750" y="0" width="450" height="350" fill="url(#dots)" clip-path="url(#right)"/>
+  <path d="M32 32 H1168 V318 H32 Z" fill="none" stroke="#1B3043"/>
+  <path d="M65 66 H80" stroke="#52E8B6" stroke-width="3"/>
+  <text x="92" y="72" fill="#A6B2C8" font-size="16" font-family="Consolas, 'Segoe UI', monospace" letter-spacing="2">LM_ / ENGINEERING PROFILE</text>
+  <text x="67" y="154" fill="#F3F6FB" font-family="Arial, 'Segoe UI', sans-serif" font-size="59" font-weight="600" letter-spacing="-2">Lucas Marques</text>
+  <text x="67" y="202" fill="#8EB6FF" font-family="Arial, 'Segoe UI', sans-serif" font-size="26" font-weight="500">Software · Data Platforms · Automation</text>
+  <rect x="67" y="228" width="52" height="3" fill="#52E8B6"/>
+  <text x="67" y="268" fill="#F3F6FB" font-family="Arial, 'Segoe UI', sans-serif" font-size="21">Do problema à produção.</text>
+  <text x="67" y="296" fill="#A6B2C8" font-family="Consolas, 'Segoe UI', monospace" font-size="12" letter-spacing="1.8">ARCHITECTURE  /  ENGINEERING  /  DELIVERY</text>
+
+  <g fill="none" stroke-width="2">
+    <path d="M780 85 L886 126 L1008 66 L1103 134" stroke="#30495F"/>
+    <path d="M886 126 L980 215 L1103 134 L1130 268" stroke="#30495F"/>
+    <path d="M780 85 L796 238 L980 215" stroke="#30495F"/>
+    <path d="M886 126 L1008 66 L1103 134" stroke="#52E8B6" opacity=".68"/>
+  </g>
+  <g>
+    <circle cx="780" cy="85" r="9" fill="#06111D" stroke="#8EB6FF" stroke-width="2"/>
+    <circle cx="886" cy="126" r="24" fill="#0C1E2E" stroke="#52E8B6" stroke-width="2"/>
+    <path d="M875 126l7 7 14-16" fill="none" stroke="#52E8B6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1008" cy="66" r="8" fill="#52E8B6"/>
+    <circle cx="1103" cy="134" r="18" fill="#091827" stroke="#8EB6FF" stroke-width="2"/>
+    <path d="M1095 128h16M1095 134h16M1095 140h16" stroke="#8EB6FF" stroke-width="2"/>
+    <circle cx="980" cy="215" r="13" fill="#091827" stroke="#52E8B6" stroke-width="2"/>
+    <circle cx="796" cy="238" r="8" fill="#8EB6FF"/>
+    <circle cx="1130" cy="268" r="7" fill="#52E8B6"/>
+  </g>
+  <g fill="#A6B2C8" font-family="Consolas, 'Segoe UI', monospace" font-size="12" letter-spacing="1">
+    <text x="811" y="75">DESIGN</text><text x="917" y="115">BUILD</text><text x="1034" y="65">DATA</text>
+    <text x="1031" y="251">OPERATE</text>
+  </g>
+</svg>
